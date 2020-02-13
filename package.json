@@ -1,17 +1,18 @@
 {
   "scripts": {
-    "cover": "#overwrite c8 -x 'tests/**/*' --temp-directory build/tmp ava --timeout 2m && c8 report -r lcov -o build/coverage --temp-directory build/tmp",
+    "cover": "#overwrite c8 -x 'tests/**/*' --temp-directory build/tmp ava --node-arguments '--experimental-modules' --timeout 2m && c8 report -r lcov -o build/coverage --temp-directory build/tmp",
   },
   "devDependencies": {
     "c8": "^7.1.0"
   },
   "template": {
     "inheritFrom": [
-        "arlac77/npm-package-template-ava"
+      "arlac77/npm-package-template-ava"
     ],
     "usedBy": [
       "arlac77/npm-package-template",
-      "arlac77/npm-package-template-esm-only"
+      "arlac77/npm-package-template-esm-only",
+      "arlac77/npm-package-template-kronos-module"
     ],
     "files": [
       {
@@ -23,13 +24,13 @@
               "name": "codecov.io",
               "icon": "http://codecov.io/github/{{github.user}}/{{github.repo}}/coverage.svg?branch=master",
               "url": "http://codecov.io/github/{{github.user}}/{{github.repo}}?branch=master",
-              "order" : 0.3
+              "order" : 0.30
             },
             {
               "name": "Coverage Status",
               "icon": "https://coveralls.io/repos/{{github.user}}/{{github.repo}}/badge.svg",
               "url": "https://coveralls.io/r/{{github.user}}/{{github.repo}}",
-              "order" : 0.3
+              "order" : 0.31
             }
           ]
         }
