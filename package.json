@@ -7,16 +7,16 @@
   },
   "template": {
     "inheritFrom": [
-      "arlac77/npm-package-template-ava"
+      "arlac77/template-ava"
     ],
     "usedBy": [
-      "arlac77/npm-package-template",
-      "arlac77/npm-package-template-esm-only",
-      "arlac77/npm-package-template-kronos-module"
+      "arlac77/template-cli-app",
+      "arlac77/template-esm-only",
+      "arlac77/template-kronos-module"
     ],
-    "files": [
+    "mergers": [
       {
-        "merger": "Readme",
+        "type": "Readme",
         "pattern": "README.md",
         "options": {
           "badges": [
