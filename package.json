@@ -12,7 +12,7 @@
     "usedBy": [
       "arlac77/template-cli-app",
       "arlac77/template-esm-only",
-      "arlac77/template-kronos-module"
+      "arlac77/template-kronos-component"
     ],
     "mergers": [
       {
