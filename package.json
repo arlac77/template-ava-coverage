@@ -3,7 +3,7 @@
     "cover": "c8 -x 'tests/**/*' --temp-directory build/tmp ava --timeout 2m && c8 report -r lcov -o build/coverage --temp-directory build/tmp"
   },
   "devDependencies": {
-    "c8": "^7.2.1"
+    "c8": "^7.3.0"
   },
   "template": {
     "inheritFrom": [
