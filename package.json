@@ -14,6 +14,7 @@
       "Kronos-Integration/test-step",
       "arlac77/SymatemOntology",
       "arlac77/SymatemQuery",
+      "arlac77/aggregate-async-iterator",
       "arlac77/template-esm-only",
       "arlac77/template-kronos-component",
       "arlac77/template-node-app"
