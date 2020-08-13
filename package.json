@@ -10,9 +10,10 @@
       "arlac77/template-ava"
     ],
     "usedBy": [
-      "arlac77/template-node-app",
+      "Kronos-Integration/test-interceptor",
       "arlac77/template-esm-only",
-      "arlac77/template-kronos-component"
+      "arlac77/template-kronos-component",
+      "arlac77/template-node-app"
     ],
     "mergers": [
       {
@@ -24,13 +25,13 @@
               "name": "codecov.io",
               "icon": "http://codecov.io/github/{{github.user}}/{{github.repo}}/coverage.svg?branch=master",
               "url": "http://codecov.io/github/{{github.user}}/{{github.repo}}?branch=master",
-              "order" : 0.40
+              "order": 0.4
             },
             {
               "name": "Coverage Status",
               "icon": "https://coveralls.io/repos/{{github.user}}/{{github.repo}}/badge.svg",
               "url": "https://coveralls.io/r/{{github.user}}/{{github.repo}}",
-              "order" : 0.41
+              "order": 0.41
             }
           ]
         }
