@@ -11,6 +11,7 @@
     ],
     "usedBy": [
       "Kronos-Integration/test-interceptor",
+      "Kronos-Integration/test-step",
       "arlac77/template-esm-only",
       "arlac77/template-kronos-component",
       "arlac77/template-node-app"
