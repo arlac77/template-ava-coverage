@@ -21,12 +21,6 @@
         "options": {
           "badges": [
             {
-              "name": "codecov.io",
-              "icon": "http://codecov.io/github/{{github.user}}/{{github.repo}}/coverage.svg?branch=master",
-              "url": "http://codecov.io/github/{{github.user}}/{{github.repo}}?branch=master",
-              "order" : 0.40
-            },
-            {
               "name": "Coverage Status",
               "icon": "https://coveralls.io/repos/{{github.user}}/{{github.repo}}/badge.svg",
               "url": "https://coveralls.io/r/{{github.user}}/{{github.repo}}",

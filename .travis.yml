@@ -3,5 +3,5 @@ jobs:
     - stage: test
       script:
         - npm run cover
-        - npx codecov
+        - --delete-- npx codecov
         - cat ./build/coverage/lcov.info | npx coveralls
