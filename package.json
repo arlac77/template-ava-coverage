@@ -10,7 +10,6 @@
       "arlac77/template-ava"
     ],
     "usedBy": [
-      "arlac77/template-node-app",
       "arlac77/template-esm-only",
       "arlac77/template-kronos-component"
     ]
