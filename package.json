@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "cover": "c8 -x 'tests/**/*' --temp-directory build/tmp ava --timeout 2m && c8 report -r lcov -o build/coverage --temp-directory build/tmp"
+    "cover": "#overwrite c8 -x 'tests/**/*' --temp-directory build/tmp ava {{ava.options}} {{ava.tests}} && c8 report -r lcov -o build/coverage --temp-directory build/tmp"
   },
   "devDependencies": {
     "c8": "^7.3.5"
