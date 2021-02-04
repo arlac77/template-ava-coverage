@@ -14,7 +14,8 @@
       "arlac77/svelte-guard-history-router",
       "arlac77/template-esm-only",
       "arlac77/template-kronos-component",
-      "arlac77/template-node-component"
+      "arlac77/template-node-component",
+      "konsumation/konsum"
     ]
   }
 }
