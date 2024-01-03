@@ -3,7 +3,7 @@
     "cover": "--overwrite-- c8 -x 'tests/**/*' --temp-directory build/tmp ava {{ava.options}} {{ava.tests}} && c8 report -r lcov -o build/coverage --temp-directory build/tmp"
   },
   "devDependencies": {
-    "c8": "^8.0.1"
+    "c8": "^9.0.0"
   },
   "template": {
     "inheritFrom": [
