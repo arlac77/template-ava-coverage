@@ -14,7 +14,7 @@
       "arlac77/svelte-guard-history-router",
       "arlac77/svelte-session-manager",
       "arlac77/svelte-websocket-store",
-      "arlac77/template-esm-only",
+      "arlac77/template-javascript-component",
       "arlac77/template-kronos-component",
       "arlac77/template-node-component"
     ]
