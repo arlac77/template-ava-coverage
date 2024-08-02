@@ -16,7 +16,8 @@
       "arlac77/svelte-websocket-store",
       "arlac77/template-javascript-component",
       "arlac77/template-kronos-component",
-      "arlac77/template-node-component"
+      "arlac77/template-node-component",
+      "konsumation/frontend-svelte"
     ]
   }
 }
